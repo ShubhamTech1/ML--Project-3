@@ -1,11 +1,14 @@
 # Project-3
 Homestays Data analysis and price prediction
+
 Step 1: Please find the dataset required for the following tasks at this link: Homestays_Data.zip [ https://cerinaco-my.sharepoint.com/:u:/g/personal/omkar_cerina_co/ETARwr3mqEtAoZFmWmYKnOIBtPhRtBczH9svOQ1gIGqxUg?e=3NwzrD ]
 Download the “Homestays_Data.zip” file and find the “Homestays_Data.csv” which contains the dataset.
 Note: The entire dataset has multiple columns and has more than 70,000 rows. Processing the following tasks on a Jupyter notebook on your local environment (your personal computer) might be time consuming due to limited processing power. We encourage you to use cloud-based tools such as Google Colab or AWS Sagemaker or anything that you prefer.
+
 Step 2: Complete the following tasks.
 Objective: Build a robust predictive model to estimate the `log_price` of homestay listings based on comprehensive analysis of their characteristics, amenities, and host information.
 First make sure that the entire dataset is clean and ready to be used.
+
 1. Feature Engineering:
 Task: Enhance the dataset by creating actionable and insightful features. Calculate `Host_Tenure` by determining the number of years from `host_since` to the current date, providing a measure of host experience. Generate `Amenities_Count` by counting the items listed in the `amenities` array to quantify property offerings. Determine `Days_Since_Last_Review` by calculating the days between `last_review` and today to assess listing activity and relevance.
 2. Exploratory Data Analysis (EDA):
